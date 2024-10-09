@@ -1,0 +1,77 @@
+/* ClientRegistrationForm.css */
+.client-registration {
+    font-family: Arial, sans-serif;
+  }
+  .is-invalid {
+    border-color: red;
+  }
+  
+  .invalid-feedback {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .alert-success {
+    color: green;
+    font-weight: bold;
+  }
+
+  .background-section {
+    background: url('https://call365.netlify.app/images/login-bg-3.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .background-content {
+    position: absolute;
+    bottom: 20%;
+    left: 40%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .logo {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 74px;
+    margin-bottom: 75px;
+  }
+
+
+  
+  .form-container {
+    width: 80%;
+    max-width: 500px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  @media only screen and (max-width: 600px) {
+    .form-container {
+      width: 90%;
+      max-width: 500px;
+      padding: 30px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+  }
+  
+  .form-container h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .form-container p {
+    margin-bottom: 20px;
+    color: #6c757d;
+  }
+  
